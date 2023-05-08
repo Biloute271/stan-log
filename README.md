@@ -15,6 +15,13 @@ If the loglevel of the event to log is equal or greater than the loglevel define
 
 ## How to use
 
+### Import
+Firs of all, import the package
+> Import (
+> ...
+> stanlog "github.com/Biloute271/stan-log"
+> ...
+> )
 ### Define log level
 
 The default log level is set to **WARNING**
