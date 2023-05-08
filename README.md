@@ -18,10 +18,15 @@ If the loglevel of the event to log is equal or greater than the loglevel define
 ### Import
 Firs of all, import the package
 > Import (
+> 
 > ...
+> 
 > stanlog "github.com/Biloute271/stan-log"
+> 
 > ...
+> 
 > )
+
 ### Define log level
 
 The default log level is set to **WARNING**
@@ -45,9 +50,13 @@ The logLevel can also be defined by calling specific functions (and preventing e
 
 Examples:
 > stanlog.SetLogLevelDebug
+> 
 > stanlog.SetLogLevelInfo
+> 
 > stanlog.SetLogLevelWarning
+> 
 > stanlog.SetLogLevelError
+> 
 > stanlog.SetLogLevelCritical
 
 ### Use in your code
@@ -56,9 +65,13 @@ After defining the desired log level (or staying at default 'WARNING'), each eve
 
 Examples:
 > stanlog.Debug("This is an event useful for debugging, but not really useful in everyday operations")
+> 
 > stanlog.Info("This information is not an error, but can be useful in certain circumstances. For example, for reglementary purposes in an application dealing with banking tranfers")
+> 
 > stanlog.Warning("Oh, something strange happened")
+> 
 > stanlog.Error("Some error occurred")
+> 
 > stanlog.Critical("Something is definitely wrong)
 
 ## Formatting thoughts
